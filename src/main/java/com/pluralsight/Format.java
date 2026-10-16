@@ -20,7 +20,8 @@ public class Format {
     }
 
     public static String formatName(String first, String last) {
-        String lastFirst = last + first;
+        String lastFirst = "\"" + last + ", " + first + "\"";
+
 
         return lastFirst;
     }
